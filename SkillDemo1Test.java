@@ -5,6 +5,6 @@ public class SkillDemo1Test {
     @Test
     public void modulo() {
 	// failing test
-        assertEquals(2, SkillDemo1.mod(10, 5));
+        assertEquals(0, SkillDemo1.mod(10, 5));
     }
 }
